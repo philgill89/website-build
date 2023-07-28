@@ -2,8 +2,8 @@
 
 ### Starting Out
 
-- [ ] Add the project to github
-- [ ] Add cbendelow as a project collaborator
+- [x] Add the project to github
+- [x] Add cbendelow as a project collaborator
 
 ### Creating the hero
 - [ ] Create the html markup for a hero section

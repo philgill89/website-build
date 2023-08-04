@@ -12,37 +12,76 @@ body {
     position: relative;
     background-repeat: no-repeat;
     height: 700px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
 }
 
-.hero-text {
-    text-align:center;
+.hero__text {
     position:absolute;
     color:white;
-    top:25%;
-    left:30%;
+    text-align: center;
 }
 
-.age{
+.hero__subtitle{
     font-weight: lighter;
     font-style: italic;
     margin-bottom: 10px;
 }
 
-.lifetime{
+.hero__title{
     font-size: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.sheepskin{
-    border: 1px solid orange;
+.hero__body{
+    margin-bottom: 10px;
+    width:70%;
+    padding-left: 15%;
+}
+
+.button{
     text-transform: uppercase;
-    color: white;
+    background-color: transparent;
+    padding: 14px 28px;
+    font-weight: bold;
+    border: none;
+}
+
+.button--primary{
+    border: 1px solid #FF9A62;
     background-color: Transparent;
     padding: 14px 28px;
     font-weight: bold;
     margin-top: 20px;
-
+    color: white;
 
 }
+
+.button--secondary{
+    border-bottom: 1px solid #FF9A62;
+    padding-left: 0px;
+}
+
+.promos{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));;
+    margin: 40px 70px 0px 70px;
+
+}
+
+.promo__content{
+    justify-content: left;
+    width: 60%;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+
+.promo__title{
+    font-size: 24px;
+}
+
+
+
 

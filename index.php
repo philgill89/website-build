@@ -10,6 +10,7 @@
 </head>
 <body>
     <section>
+
       <div class="hero">
           <div class="hero__text">
               <p class="hero__subtitle">An Age to make</p>
@@ -20,30 +21,35 @@
       </div>
     </section>
 
+    <?php
+    $promos = [
+        1 => [
+            'image' => '/assets/Promo1.jpg',
+            'title' => 'title1',
+            'body' => 'body1',
+            'button' => 'button1',
+        ],
+        2 => [
+            'image' => '/assets/Promo2.jpg',
+            'title' => 'test',
+            'body' => 'test',
+            'button' => 'test',
+        ],
+        3 =>[
+            'title' => 'test',
+            'body' => 'test',
+            'button' => 'test',
+        ],
+    ];
+    ?>
+
     <section class="promos">
-        <div class="promo">
-            <img class="promo__image" src="/assets/Promo1.jpg">
-            <div class="promo__content">
-                <h5 class="promo__title">Promo 1</h5>
-                <p class="promo__body">Welcome to my first website, here you’ll find components and sections that i’ve built.</p>
-                <button class="button button--secondary">find out more</button>
-            </div>
-        </div>
-        <div class="promo">
-            <img class="promo__image" src="/assets/Promo3.jpg">
-            <div class="promo__content">
-                <h5 class="promo__title">Promo 1</h5>
-                <p class="promo__body">Welcome to my first website, here you’ll find components and sections that i’ve built.</p>
-                <button class="button button--secondary">find out more</button>
-            </div>
-        </div>
-        <div class="promo">
-            <img class="promo__image" src="/assets/Promo2.jpg">
-            <div class="promo__content">
-                <h5 class="promo__title">Mens Shirts</h5>
-                <p class="promo__body">Welcome to my first website, here you’ll find components and sections that i’ve built.</p>
-                <button class="button button--secondary">find out more</button>
-            </div>
-        </div>
+    <?php
+    foreach ($promos as $promo) {
+        include 'promo-card.php';
+    }
+    ?>
+
+
     </section>
 </body>

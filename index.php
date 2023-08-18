@@ -25,20 +25,21 @@
     $promos = [
         1 => [
             'image' => '/assets/Promo1.jpg',
-            'title' => 'title1',
-            'body' => 'body1',
-            'button' => 'button1',
+            'title' => 'Promo 1',
+            'body' => 'Welcome to my first website, here you’ll find components and sections that i’ve built.',
+            'button' => 'Find Out More',
         ],
         2 => [
             'image' => '/assets/Promo2.jpg',
-            'title' => 'test',
-            'body' => 'test',
-            'button' => 'test',
+            'title' => 'Promo 1',
+            'body' => 'Welcome to my first website, here you’ll find components and sections that i’ve built.',
+            'button' => 'Find Out More',
         ],
         3 =>[
-            'title' => 'test',
-            'body' => 'test',
-            'button' => 'test',
+            'image' => '/assets/Promo3.jpg',
+            'title' => 'Mens Shirts',
+            'body' => 'Welcome to my first website, here you’ll find components and sections that i’ve built.',
+            'button' => 'Find Out More',
         ],
     ];
     ?>

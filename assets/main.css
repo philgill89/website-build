@@ -67,8 +67,7 @@ body {
 .promos{
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));;
-    margin: 40px 70px 0px 70px;
-
+    justify-content: center;
 }
 
 .promo__content{

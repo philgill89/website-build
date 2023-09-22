@@ -66,27 +66,31 @@ body {
 
 .promo{
    padding:20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1728px;
+    margin-top: 20px;
 }
 
 .promos{
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 0fr));;
-    justify-content: center;
-    padding:20px;
-    grid-gap: 50px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));;
 }
 
 .promo__content{
     justify-content: left;
     width: 60%;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .promo__title{
     font-size: 24px;
 }
 
+.promo__image{
+    width: 100%;
+}
 
 
 

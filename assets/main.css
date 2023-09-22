@@ -67,8 +67,9 @@ body {
 .promos{
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));;
+    grid-gap: 20px;
     max-width: 1728px;
-    margin-top: 20px;
+    margin: 40px auto 0 auto ;
 }
 
 .promo{
@@ -79,13 +80,13 @@ body {
 .promo__content{
     justify-content: left;
     width: 60%;
-    margin-bottom: 0;
-    margin-top: 0;
 }
 
 .promo__title{
     font-size: 24px;
+    margin-bottom:0;
 }
+
 
 .promo__image{
     width: 100%;

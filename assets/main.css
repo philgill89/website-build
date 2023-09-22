@@ -64,17 +64,16 @@ body {
     padding-left: 0px;
 }
 
-.promo{
-   padding:20px;
-    justify-content: center;
-    align-items: center;
+.promos{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));;
     max-width: 1728px;
     margin-top: 20px;
 }
 
-.promos{
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));;
+.promo{
+    justify-content: center;
+    align-items: center;
 }
 
 .promo__content{

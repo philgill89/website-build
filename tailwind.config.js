@@ -4,12 +4,13 @@ const colors = require('tailwindcss/colors');
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     content: [
-        './*.php',
+        './**/*.php',
         './*.html'
       ],
       theme: {
         extend: {
           colors: {
+              primary: '#003459'
           },
           fontFamily: {
           }

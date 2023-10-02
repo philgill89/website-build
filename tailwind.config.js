@@ -12,13 +12,11 @@ module.exports = {
           colors: {
               primary: '#003459',
               secondary: '#0078CD',
-              ghost: '#00000000'
+              ghost: '#000000',
+              beige: '#FCEED5',
           },
           fontFamily: {
           }
         },
       },
-      plugins: [
-        require('@tailwindcss/typography'),
-      ],
 }

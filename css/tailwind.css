@@ -3,13 +3,17 @@
 @tailwind utilities;
 @layer components{
     .button{
-        @apply inline-flex items-center bg-blue-900 text-white px-4 py-4 rounded-full;
+        @apply inline-flex items-center border-2 bg-black text-white px-7 py-3 rounded-full hover:bg-secondary;
     }
     .button--primary{
-        @apply bg-primary w-48;
+        @apply bg-primary;
     }
 
     .button--secondary{
-        @apply bg-primary w-48;
+        @apply bg-secondary border-2 hover:bg-primary;
+    }
+
+    .button--ghost{
+        @apply bg-ghost text-black border-2 border-b-sky-800 hover:bg-primary;
     }
 }

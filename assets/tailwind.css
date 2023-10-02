@@ -571,12 +571,11 @@ video {
 }
 
 .button--ghost {
-  border-width: 2px;
-  --tw-border-opacity: 1;
-  border-bottom-color: rgb(7 89 133 / var(--tw-border-opacity));
   background-color: #00000000;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+  outline-width: 0px;
+  outline-color: #083344;
 }
 
 .button--ghost:hover {

@@ -14,6 +14,8 @@
     }
 
     .button--ghost{
-        @apply bg-ghost text-black border-2 border-b-sky-800 hover:bg-primary;
+        @apply bg-ghost text-black outline-0 outline-cyan-950 hover:bg-primary;
     }
+
+
 }

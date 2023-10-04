@@ -99,10 +99,15 @@
                     Newsletter Section
                 </h3>
             </div>
-            <div class="inline-flex flex-wrap items-center gap-8 border border-dashed border-purple-600 p-8 rounded-lg">
-                <div class="text-black width-10 ">Register now so you don't miss our program</div>
+            <div class="inline-flex flex-wrap items-center gap-8 border border-dashed border-purple-600 p-8 rounded-lg w-full>
+                <div class="text-black width-10 font-bold ">Register now so you don't miss our program</div>
                 <div class="w-full bg-primary p-8">
                     <div class="bg-white p-4 rounded-lg">
+                        <?php includeWithVariables('elements/input.php',
+                            array(
+                                'type' => 'email',
+                                'style' => '',
+                                'placeholder' => 'Enter your Email',)); ?>
                         <?php includeWithVariables('elements/button.php',
                             array('text' => 'Subscribe Now', 'style' => 'button--primary rounded')); ?>
                     </div>

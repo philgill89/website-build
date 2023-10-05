@@ -99,13 +99,14 @@
                     Newsletter Section
                 </h3>
             </div>
-            <div class="flex bg-primary items-center gap-6 border border-dashed border-purple-600 p-2 rounded-xl w-full ">
-                <div class="text-white flex font-bold text-xl w-full max-w-xs capitalize">Register now so you don't miss our programs</div>
+            <div class="flex bg-primary items-center gap-6 border border-dashed border-purple-600  rounded-xl w-full ">
+                <div class="text-white  flex font-bold text-xl w-full max-w-xs capitalize">Register now so you don't miss our programs</div>
                 <div class=" flex-1  p-8">
-                    <div class=" flex w-full  bg-white  p-4 rounded-xl">
+                    <div class=" flex w-full bg-white p-4 rounded-xl">
                         <?php includeWithVariables('elements/input.php',
                             array(
                                 'type' => 'email',
+                                'hidden_label' => 'true',
                                 'style' => 'flex-1 ',
                                 'container_style' => 'flex-1 px-6 ',
                                 'placeholder' => 'Enter your Email',)); ?>

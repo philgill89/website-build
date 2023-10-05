@@ -1,4 +1,4 @@
-<div class="flex flex-col">
+<div class="flex flex-col <?php if(isset($container_style)){echo ' ' . $container_style;} ?>">
     <label class="<?php if(isset($hidden_label)){echo 'hidden';}else{echo 'mb-2';} ?>" for="<?php if(isset($name)){echo $name;} ?>"><?php if(isset($label)){echo $label;} ?></label>
     <input id="<?php if(isset($name)){echo $name;} ?>"
            type="<?php if(isset($type)){echo $type;}else{echo 'text';} ?>"

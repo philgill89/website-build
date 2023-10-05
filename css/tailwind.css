@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .button{@apply inline-flex items-center bg-black text-white px-3 py-4 rounded-full}
+    .button--primary{@apply bg-primary}
+}

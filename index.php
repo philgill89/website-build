@@ -2,10 +2,6 @@
 
 <body>
 
-<footer>
-
-
-</footer>
 </body>
 
 

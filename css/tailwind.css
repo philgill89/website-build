@@ -25,5 +25,8 @@
         @apply border-red-600;
     }
 
+    .footer{
+        @apply bg-beige;
+    }
 
 }

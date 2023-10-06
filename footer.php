@@ -1,5 +1,6 @@
-<div class="footer">
-<div class="newsletter">
+<div class="bg-beige w-full h-20 rounded-lg ">
+    
+
 
 </div>
 

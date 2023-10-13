@@ -1,21 +1,8 @@
-# Learning Front End
+# Pet Store website
 
-### Starting Out
+### Description
 
-- [x] Add the project to github
-- [x] Add cbendelow as a project collaborator
+- This project is building a website for a pet store. It will be functional for both desktop and mobile. As well as making the different pages, parts of the site such as buttons and the footer will be made as separate components that can then be added to the pages 
 
-### Creating the hero
-- [ ] Create the html markup for a hero section
-- [ ] Using CSS style the section to look like the design
-
-### Promo sections
-- [ ] Add the markup for the promo sections
-- [ ] Using CSS style the section to look like the design
-- [ ] Convert to an array
-- [ ] Loop through the array to show the promos
-
-### Header section
-- [ ] Add your logo
-
-Coming soon...
+### Languages used
+- PHP, HTML and Tailwind CSS

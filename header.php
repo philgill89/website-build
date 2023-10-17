@@ -1,7 +1,7 @@
 <?php include('head.php'); ?>
 <body class="min-h-screen flex flex-col">
-<header class="mt-auto bg-white w-full flex pt-24 pb-12">
-    <div class="w-full max-w-screen-xl mx-auto grid grid-cols-1 gap-y-12">
+<header class="mt-auto bg-white w-full flex pt-20 pb-10">
+    <div class="w-full max-w-screen-xl mx-auto grid grid-cols-4 gap-y-12 items-center">
         <a href="#">
             <svg width="115" height="40" viewBox="0 0 115 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_101_1235)">
@@ -36,43 +36,27 @@
             </svg>
         </a>
         <ul class=" flex list-none space-x-8">
-            <li>
-                <a href="index.php">Home</a>
-            </li>
-            <li>
-                <a href="category.php">Category</a>
-            </li>
-            <li>
-                <a href="about.php">About</a>
-            </li>
-            <li>
-                <a href="contact.php">Contact</a>
-            </li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="/">Category</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact</a></li>
         </ul>
+            <?php includeWithVariables('elements/input.php',
+                array(
+                    'type' => 'email',
+                    'hidden_label' => 'true',
+                    'style' => 'flex-1 ',
+                    'container_style' => 'flex-1 px-6 ',
+                    'placeholder' => 'Enter your Email',)); ?>
 
-
+                <?php includeWithVariables('elements/button.php',
+                    array('text' => 'Join the community', 'style' => 'button--primary')); ?>
+        </div>
     </div>
 </header>
 </body>
 
-<div class="container inline-flex flex-wrap items-center">
 
 
-    <div class="flex bg-white p-1 rounded-xl">
-    <?php includeWithVariables('elements/input.php',
-        array(
-            'type' => 'email',
-            'hidden_label' => 'true',
-            'style' => 'flex-1 ',
-            'container_style' => 'flex-1 px-6 ',
-            'placeholder' => 'Enter your Email',)); ?>
 
-    <div class=" flex gap-8 p-8 rounded-lg">
-        <?php includeWithVariables('elements/button.php',
-            array('text' => 'Join the community', 'style' => 'button--primary')); ?>
-    </div>
-
-        <div>
-</div>
-</div>
 

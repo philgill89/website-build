@@ -1,7 +1,7 @@
 <?php include('head.php'); ?>
 <body class="min-h-screen flex flex-col">
-<header class="mt-auto bg-white w-full flex pt-20 pb-10">
-    <div class="w-full max-w-screen-xl mx-auto grid grid-cols-4 gap-y-12 items-center">
+<header class="mt-auto bg-white w-full flex">
+    <div class="w-full max-w-screen-xl mx-auto flex gap-y-12 items-center">
         <a href="#">
             <svg width="115" height="40" viewBox="0 0 115 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_101_1235)">
@@ -35,12 +35,13 @@
                 </defs>
             </svg>
         </a>
-        <ul class=" flex list-none space-x-8">
+        <ul class=" flex list-none font-bold text-blue-950 space-x-6">
             <li><a href="index.php">Home</a></li>
             <li><a href="/">Category</a></li>
             <li><a href="/">About</a></li>
             <li><a href="/">Contact</a></li>
         </ul>
+        <div class="flex">
             <?php includeWithVariables('elements/input.php',
                 array(
                     'type' => 'email',
@@ -51,6 +52,7 @@
 
                 <?php includeWithVariables('elements/button.php',
                     array('text' => 'Join the community', 'style' => 'button--primary')); ?>
+        </div>
         </div>
     </div>
 </header>

@@ -1,6 +1,6 @@
 <?php include('head.php'); ?>
 <body class="min-h-screen flex flex-col">
-<header class="mt-auto bg-white w-full flex">
+<header class="mt-auto bg-white w-full flex mt-16">
     <div class="w-full max-w-screen-xl mx-auto flex gap-y-12 items-center justify-around">
         <a href="#">
             <svg width="115" height="40" viewBox="0 0 115 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +47,7 @@
                     'type' => 'email',
                     'hidden_label' => 'true',
                     'style' => 'flex-1 ',
-                    'container_style' => 'flex-1 px-6 ',
+                    'container_style' => 'flex-1 px-8',
                     'placeholder' => 'Search something here!',)); ?>
 
                 <?php includeWithVariables('elements/button.php',

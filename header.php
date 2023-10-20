@@ -1,7 +1,7 @@
 <?php include('head.php'); ?>
 <body class="min-h-screen flex flex-col">
 <header class="mt-auto bg-white w-full flex">
-    <div class="w-full max-w-screen-xl mx-auto flex gap-y-12 items-center">
+    <div class="w-full max-w-screen-xl mx-auto flex gap-y-12 items-center justify-around">
         <a href="#">
             <svg width="115" height="40" viewBox="0 0 115 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_101_1235)">
@@ -35,23 +35,42 @@
                 </defs>
             </svg>
         </a>
-        <ul class=" flex list-none font-bold text-blue-950 space-x-6">
+        <ul class=" flex list-none font-bold text-blue-950 space-x-10">
             <li><a href="index.php">Home</a></li>
             <li><a href="/">Category</a></li>
             <li><a href="/">About</a></li>
             <li><a href="/">Contact</a></li>
         </ul>
-        <div class="flex">
+        <div class="flex justify-around">
             <?php includeWithVariables('elements/input.php',
                 array(
                     'type' => 'email',
                     'hidden_label' => 'true',
                     'style' => 'flex-1 ',
                     'container_style' => 'flex-1 px-6 ',
-                    'placeholder' => 'Enter your Email',)); ?>
+                    'placeholder' => 'Search something here!',)); ?>
 
                 <?php includeWithVariables('elements/button.php',
                     array('text' => 'Join the community', 'style' => 'button--primary')); ?>
+            <div class="flex items-center space-x-2 ml-6">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_101_1138)">
+                    <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#D80027"/>
+                    <path d="M8.00002 4.17383L8.8634 6.83098H11.6573L9.39696 8.47317L10.2603 11.1304L8.00002 9.48814L5.73971 11.1304L6.60309 8.47317L4.34277 6.83098H7.13665L8.00002 4.17383Z" fill="#FFDA44"/>
+                </g>
+                <defs>
+                    <clipPath id="clip0_101_1138">
+                        <rect width="16" height="16" fill="white"/>
+                    </clipPath>
+                </defs>
+            </svg>
+
+            <select id="currency list">
+                <option value="GBP" selected="selected" label="GBP">GBP</option>
+                <option value="EUR" label="EUR">EUR</option>
+                <option value="USD" label="USD">USD</option>
+            </select>
+        </div>
         </div>
         </div>
     </div>

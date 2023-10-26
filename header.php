@@ -93,7 +93,6 @@
                 <input class="p-2 focus:outline-none"
                        placeholder="Search something here!">
             </div>
-
             <?php includeWithVariables('elements/button.php',
                 array('text' => 'Join the community', 'style' => 'button--primary')); ?>
             <div class="flex items-center space-x-2 ml-6">

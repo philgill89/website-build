@@ -2,7 +2,7 @@
 
 <body class="m8 lg:m-16">
 <div class="w-full mb-16">
-    <div class="flex flex-wrap gap-x-10 items-center">
+    <div class="flex flex-wrap gap-x-10">
         <div>
             <div class="grid grid-cols-1 gap-y-2 rounded-lg p-4 border border-solid">
                 <div class="rounded-xl">

@@ -36,7 +36,7 @@ $promos = [
 <section class="promos">
     <?php
     foreach ($promos as $promo) {
-        include 'promo-card.php';
+        include 'listing-card.php';
     }
     ?>
 

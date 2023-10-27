@@ -7,5 +7,5 @@
         <span>Gender: Male</span>
         <span>Age: 2 months</span>
     </div>
-    <h5 class="font-bold">£2000</h5>
+    <span class="font-bold"><?php if(isset($price)){echo $price;} ?></span>
 </div>

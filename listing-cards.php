@@ -3,6 +3,37 @@
 <body class="m8 lg:m-16">
 <div class="w-full mb-16">
     <div class="flex flex-wrap gap-x-10">
+
+        <?php
+            $products = array(
+                "dog-1" => array(
+                    "title" => "MO231 - Pomeranian White",
+                    "price" => "£50.00",
+                ),
+                "dog-2" => array(
+                    "title" => "MO231 - Pomeranian White",
+                    "price" => "£50.00",
+                ),
+                "dog-3" => array(
+                    "title" => "Test",
+                    "price" => "£50.00",
+                )
+            );
+        ?>
+
+        <?php foreach($products as $product){
+            includeWithVariables('snippets/listing-card.php',
+                array('title' => $product['title'], 'price' => $product['price']));
+            }
+        ?>
+
+        <?php includeWithVariables('snippets/listing-card.php',
+            array('title' => 'MO231 - Pomeranian White')); ?>
+
+        <?php includeWithVariables('snippets/listing-card.php',
+            array('title' => 'test')); ?>
+
+
         <div>
             <div class="grid grid-cols-1 gap-y-2 rounded-lg p-4 border border-solid">
                 <div class="rounded-xl">

@@ -1,7 +1,9 @@
 <?php include('head.php');?>
 <body class="min-h-screen flex flex-col">
-    <header class="bg-beige w-full flex pt-24 pb-12">
-        <div class="w-full relative max-w-screen-xl mx-auto flex items-center justify-around">
+    <header class="bg-beige w-full flex">
+        <div class="w-full relative max-w-screen-xl mx-auto flex flex-wrap">
+            <?php includeWithVariables('node_modules/sections/header.php',
+                array( '',));?>
             <div class="relative">
                 <img src="assets/hero.png"
                     <div class="absolute text-center">

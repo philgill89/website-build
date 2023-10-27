@@ -34,7 +34,7 @@
             array('title' => 'test')); ?>
 
 
-        <div>
+       <!-- <div>
             <div class="grid grid-cols-1 gap-y-2 rounded-lg p-4 border border-solid">
                 <div class="rounded-xl">
                     <img class="rounded-xl" src="assets/dog1.jpg">
@@ -58,13 +58,10 @@
                 <p>Weight: 385g</p>
             </span>
             <h5 class="font-bold">£2000</h5>
-
-                <?php includeWithVariables('elements/button.php',
-                    array('text' => 'Free Toy & Free Shaker', 'style' => 'button--secondary rounded-xl bg-beige text-black font-bold')); ?>
             </div>
         </div>
         <div>
-        </div>
+        </div> -->
     </div>
 </div>
 </body>

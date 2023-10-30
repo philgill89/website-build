@@ -2,24 +2,20 @@
 <body class="min-h-screen flex flex-col">
     <header class="bg-beige w-full flex">
         <div class="w-full relative max-w-screen-xl mx-auto flex flex-wrap">
-            <?php includeWithVariables('node_modules/sections/header.php',
-                array( '',));?>
-            <div class="relative">
-                <img src="assets/hero.png"
-                    <div class="absolute text-center">
-                        <h1 class="font-bold text-primary">One more friend</h1>
-                        <h2 class="text-primary font-bold">Thousands more fun!</h2>
-                     </div>
+
+            <div class="flex">
+                <img alt="happy woman and dog" class="w-full relative" src="../assets/hero.jpg">
+                <div class="absolute grid grid-cols-1">
+                    <span class="font-bold text-primary text-3xl">One more friend</span>
+                    <span class="text-primary font-bold">Thousands more fun!</span>
+                </div>
             </div>
         </div>
     </header>
-    <div>
+    <!--<div>
         <p>Whats new?</p>
         <h5 class="text-primary font-bold">Take a look at some of our pets</h5>
-<div class="grid grid-cols-4">
-
-</div>
-    </div>
+</div>-->
     <footer class="mt-auto bg-beige w-full rounded-t-3xl flex pt-24 pb-12">
         <div class="w-full max-w-screen-xl mx-auto grid grid-cols-1 gap-y-12">
             <div class="bg-primary rounded-xl p-6">

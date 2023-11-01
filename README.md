@@ -11,7 +11,7 @@
 
 
 ### Components made
--[x] Search bar
--[x] Buttons
--[x] Newsletter sign up
--[x] Footer
+- [x] Search bar
+- [x] Buttons
+- [x] Newsletter sign up
+- [x] Footer

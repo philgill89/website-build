@@ -15,3 +15,5 @@
 - [x] Buttons
 - [x] Newsletter sign up
 - [x] Footer
+- [ ] Product Card
+- [ ] Navigation

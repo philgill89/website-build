@@ -29,4 +29,7 @@
         @apply bg-beige;
     }
 
+    .sash{
+        @apply bg-beige inline-flex items-center border-2 border-transparent px-7 py-3 rounded-full;
+    }
 }

@@ -11,13 +11,33 @@
                     "price" => "£50.00",
                 ),
                 "dog-2" => array(
-                    "title" => "MO231 - Pomeranian White",
+                    "title" => "MO231 - Poodle Tiny Yellow",
                     "price" => "£50.00",
                 ),
                 "dog-3" => array(
-                    "title" => "Test",
+                    "title" => "M0102 - Poodle Tiny Sepia",
                     "price" => "£50.00",
-                )
+                ),
+                 "dog-4" => array(
+                    "title" => "M0512 - Alaskan Malamute Grey",
+                    "price" => "£50.00",
+                ),
+                "dog-5" => array(
+                    "title" => "MO231 - Pembroke Corgi Cream",
+                    "price" => "£50.00",
+                ),
+                "dog-6" => array(
+                    "title" => "MO231 - Pembroke Corgi Tricolour",
+                    "price" => "£50.00",
+                ),
+                "dog-7" => array(
+                    "title" => "M0231 - Pomeranian White",
+                    "price" => "£50.00",
+                ),
+                "dog-8" => array(
+                    "title" => "M0312 - Poodle Tiny Dairy Cow",
+                    "price" => "£50.00",
+                ),
             );
         ?>
 

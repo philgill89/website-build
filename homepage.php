@@ -1,7 +1,7 @@
 <?php include('head.php');?>
 <body class="" xmlns="http://www.w3.org/1999/html">
-<nav class="w-full justify-center">
-    <div class="w-full container flex flex-wrap items-center">
+<nav class="w-full justify-center absolute top-0 inset-x-0 z-50">
+    <div class="w-full container flex flex-wrap items-center mx-auto justify-center">
         <div class="items-center">
             <?php includeWithVariables('sections/header.php',
                 array('',));?>
@@ -9,10 +9,10 @@
     </div>
 </nav>
 
-<div class="pt-24">
-    <div class="container mx-auto flex flex-wrap  items-center">
-        <div class="w-full py-6">
-            <img alt="happy woman and dog" class="w-full" src="../assets/hero.jpg" />
+<div class="top-0 ">
+    <div class=" flex flex-wrap items-center object-cover isolate overflow-hidden">
+        <div class="w-full">
+            <img alt="happy woman and dog" class="w-full bg-cover relative" src="../assets/hero.jpg" />
         </div>
 
         <div class="flex flex-col w-full absolute text-left ml-8">
@@ -25,7 +25,7 @@
             <span class="text-lg text-primary mb-8 mt-8 w-5/12">
                 Having a pet means you have more joy, a new friend, a happy person who will always be with you to have fun. We have 200+ different pets that can meet your needs!
             </span>
-            <div>
+            <div class="flex flex-wrap gap-6">
                 <?php includeWithVariables('elements/button.php',
                     array('text' => 'Click Here', 'style' => 'button--ghost', 'icon' => 'caret-circle-right')); ?>
                 <?php includeWithVariables('elements/button.php',
@@ -34,6 +34,7 @@
         </div>
     </div>
 </div>
+
 
 <div class="w-full flex grid grid-cols-1 ">
     <span class="text-lg text-primary">Whats new?</span>

@@ -16,6 +16,7 @@ module.exports = {
               beige: '#FCEED5',
           },
           fontFamily: {
+              'primary': 'Montserrat',
           }
         },
       },

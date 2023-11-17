@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    @apply font-primary;
+}
+
 @layer components{
     .button{
         @apply inline-flex items-center border-2 border-transparent bg-black text-white px-7 py-3 rounded-full hover:bg-secondary;

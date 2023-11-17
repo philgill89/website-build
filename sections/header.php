@@ -1,4 +1,4 @@
-<header class="bg-white w-full flex p-8">
+<header class="bg-transparent w-full flex p-8">
     <div class="w-full relative max-w-screen-xl mx-auto flex items-center justify-around">
         <a href="#">
             <svg width="115" height="40" viewBox="0 0 115 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -82,13 +82,13 @@
                 </a>
             </li>
         </ul>
-        <div class="flex justify-around">
+        <div class="flex flex-wrap">
             <div class="flex items-center mr-4">
-                <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 18 18">
+                <svg class="mr-2 absolute" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 18 18">
                     <path fill="#667479"
                           d="M17.092 15.908 14 12.842A7.5 7.5 0 1 0 12.842 14l3.066 3.067a.832.832 0 0 0 1.184 0 .833.833 0 0 0 0-1.159ZM8.167 14a5.833 5.833 0 1 1 0-11.666 5.833 5.833 0 0 1 0 11.666Z"/>
                 </svg>
-                <input class="p-2 focus:outline-none"
+                <input class="p-2  focus:outline-none rounded-3xl"
                        placeholder="Search something here!">
             </div>
             <?php includeWithVariables('elements/button.php',
@@ -108,7 +108,7 @@
                     </defs>
                 </svg>
 
-                <select id="currency list">
+                <select id="currency list" class="bg-transparent">
                     <option value="GBP" selected="selected" label="GBP">GBP</option>
                     <option value="EUR" label="EUR">EUR</option>
                     <option value="USD" label="USD">USD</option>

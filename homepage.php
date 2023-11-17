@@ -3,7 +3,7 @@
 <nav class="w-full justify-center">
     <div class="w-full container flex flex-wrap items-center">
         <div class="items-center">
-            <?php includeWithVariables('node_modules/sections/header.php',
+            <?php includeWithVariables('/header.php',
                 array('',));?>
         </div>
     </div>

@@ -1,33 +1,33 @@
 <?php include('head.php');?>
 <body class="" xmlns="http://www.w3.org/1999/html">
-<nav class="w-full justify-center absolute top-0 inset-x-0 z-50">
-    <div class="w-full container flex flex-wrap items-center mx-auto justify-center">
-        <div class="items-center">
+<nav class="w-full justify-center absolute inset-x-0 z-50">
+    <div class="w-full flex flex-wrap items-center mx-auto justify-center">
+        <div class="items-center w-full container">
             <?php includeWithVariables('sections/header.php',
                 array('',));?>
         </div>
     </div>
 </nav>
 
-<div class="top-0 ">
+<div class="">
     <div class=" flex flex-wrap items-center object-cover isolate overflow-hidden">
         <div class="w-full">
             <img alt="happy woman and dog" class="w-full bg-cover relative" src="../assets/hero.jpg" />
         </div>
 
-        <div class="flex flex-col w-full absolute text-left ml-8">
-            <span class=" text-6xl text-primary font-bold">
+        <div class="flex flex-col w-full absolute text-left mr-8 ">
+            <span class=" text-5xl text-primary font-bold">
                One More Friend
             </span>
-            <span class="text-6xl text-primary font-bold">
+            <span class="text-5xl text-primary font-bold">
                 Thousands More Fun!
             </span>
-            <span class="text-lg text-primary mb-8 mt-8 w-5/12">
+            <span class="text-md text-primary mb-8 mt-8 w-5/12">
                 Having a pet means you have more joy, a new friend, a happy person who will always be with you to have fun. We have 200+ different pets that can meet your needs!
             </span>
             <div class="flex flex-wrap gap-6">
                 <?php includeWithVariables('elements/button.php',
-                    array('text' => 'Click Here', 'style' => 'button--ghost', 'icon' => 'caret-circle-right')); ?>
+                    array('text' => 'View Intro', 'style' => 'button--ghost', 'icon' => 'caret-circle-right')); ?>
                 <?php includeWithVariables('elements/button.php',
                     array('text' => 'Explore Now', 'style' => 'button--primary')); ?>
             </div>
@@ -79,9 +79,9 @@
     </div>
 </div>
 
-<div class="items-center justify-center flex">
+<div class="items-center flex justify-center">
     <img src="assets/banner2.jpg">
-    <div class="absolute grid grid-cols-1 text-left">
+    <div class="absolute grid grid-cols-1">
         <span class="font-bold text-primary text-4xl">Adoption</span>
         <span class="font-bold text-primary text-4xl">We need help. So do they</span>
         <Span class="text-primary w-6/12">Adopt a pet and give it a home, it will love you back unconditionally</Span>

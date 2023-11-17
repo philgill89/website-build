@@ -83,12 +83,12 @@
             </li>
         </ul>
         <div class="flex flex-wrap">
-            <div class="flex items-center mr-4">
+            <div class="flex inline-flex items-center mr-4">
                 <svg class="mr-2 absolute" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 18 18">
                     <path fill="#667479"
                           d="M17.092 15.908 14 12.842A7.5 7.5 0 1 0 12.842 14l3.066 3.067a.832.832 0 0 0 1.184 0 .833.833 0 0 0 0-1.159ZM8.167 14a5.833 5.833 0 1 1 0-11.666 5.833 5.833 0 0 1 0 11.666Z"/>
                 </svg>
-                <input class="p-2  focus:outline-none rounded-3xl"
+                <input class="px-6 py-8 p-2 focus:outline-none rounded-3xl text-sm"
                        placeholder="Search something here!">
             </div>
             <?php includeWithVariables('elements/button.php',

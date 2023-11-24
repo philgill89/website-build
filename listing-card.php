@@ -1,5 +1,6 @@
 <?php include('head.php');?>
 <body class="m8 lg:m-16">
+<div class="inline-flex flex-wrap grid grid-cols-2">
 <div class="w-full mb-16 flex flex-wrap">
     <div class="shadow-md rounded-xl p-2">
         <img alt="dog" class="rounded-xl" src="../assets/dog1.jpg">
@@ -39,5 +40,6 @@
     </div>
 </div>
     </div>
+</div>
 </div>
 </body>

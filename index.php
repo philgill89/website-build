@@ -15,7 +15,7 @@
             <a class="button rounded-full" href="/header.php">Header</a>
         </li>
         <li>
-            <a class="button rounded-full" href="/snippets/listing-card.php">Listing Card</a>
+            <a class="button rounded-full" href="/listing-card.php">Listing Card</a>
         </li>
     </ul>
 </body>

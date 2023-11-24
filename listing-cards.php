@@ -42,15 +42,15 @@
         ?>
 
         <?php foreach($products as $product){
-            includeWithVariables('snippets/listing-card.php',
+            includeWithVariables('/listing-card.php',
                 array('title' => $product['title'], 'price' => $product['price']));
             }
         ?>
 
-        <?php includeWithVariables('snippets/listing-card.php',
+        <?php includeWithVariables('/listing-card.php',
             array('title' => 'MO231 - Pomeranian White')); ?>
 
-        <?php includeWithVariables('snippets/listing-card.php',
+        <?php includeWithVariables('/listing-card.php',
             array('title' => 'test')); ?>
 
 
@@ -83,5 +83,9 @@
         <div>
         </div> -->
     </div>
+    <?php if(isset($title)){echo $title;} ?>
+    <?php if(isset($price)){echo $price;} ?>
+    <?php if(isset($price)){echo $price;} ?>
+
 </div>
 </body>

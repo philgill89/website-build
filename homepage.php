@@ -49,10 +49,17 @@
 
 <div class="w-full flex flex-wrap items-center justify-center">
     <img src="assets/banner1.jpg" class="relative">
-    <div class="flex absolute grid grid-cols-1 text-right">
-        <span class="font-bold text-primary text-4xl">One more friend</span>
+    <div class="flex absolute grid grid-cols-1 container text-right">
+        <span class="font-bold text-primary mt-2 text-5xl">One more friend</span>
         <span class="text-primary font-bold text-4xl">Thousands more fun!</span>
+        <div class="flex flex-wrap justify-end gap-6">
+            <?php includeWithVariables('elements/button.php',
+                array('text' => 'View Intro', 'style' => 'button--ghost', 'icon' => 'caret-circle-right')); ?>
+            <?php includeWithVariables('elements/button.php',
+                array('text' => 'Explore Now', 'style' => 'button--primary')); ?>
+        </div>
     </div>
+
 </div>
 
 
@@ -66,8 +73,12 @@
 <div class="flex grid grid-cols-4 items-center justify-center">
 </div>
 <div class="flex flex-wrap">
+    <div class="items-center grid-cols-2">
     <span class="text-primary">Proud to be part of</span>
-    <span class="text-primary font-bold">Pet Sellers</span>
+    <span class="text-primary font-bold text-lg">Pet Sellers</span>
+        <?php includeWithVariables('elements/button.php',
+            array('text' => 'view more', 'style' => 'button--ghost')); ?>
+    </div>
     <div class="grid grid-cols-7 items-center justify-between">
         <img src="assets/logo1.jpg">
         <img src="assets/logo2.jpg">
@@ -81,10 +92,16 @@
 
 <div class="items-center flex justify-center">
     <img src="assets/banner2.jpg">
-    <div class="absolute grid grid-cols-1">
-        <span class="font-bold text-primary text-4xl">Adoption</span>
+    <div class="absolute grid grid-cols-1 container">
+        <span class="font-bold text-primary text-5xl">Adoption</span>
         <span class="font-bold text-primary text-4xl">We need help. So do they</span>
-        <Span class="text-primary w-6/12">Adopt a pet and give it a home, it will love you back unconditionally</Span>
+        <Span class="text-primary w-6/12 ">Adopt a pet and give it a home, it will love you back unconditionally</Span>
+        <div class="flex flex-wrap justify-start gap-6">
+            <?php includeWithVariables('elements/button.php',
+                array('text' => 'View Intro', 'style' => 'button--ghost', 'icon' => 'caret-circle-right')); ?>
+            <?php includeWithVariables('elements/button.php',
+                array('text' => 'Explore Now', 'style' => 'button--primary')); ?>
+        </div>
     </div>
 </div>
 

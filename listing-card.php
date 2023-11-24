@@ -1,7 +1,12 @@
 <?php include('head.php');?>
-<body class="m8 lg:m-16">
-<div class="inline-flex flex-wrap grid grid-cols-2">
-<div class="w-full mb-16 flex flex-wrap">
+<body class="lg:m-16">
+<div class="mb-4 justify-center items-center">
+    <h3 class="text-lg">
+        Product Card
+    </h3>
+</div>
+<div class="flex-wrap items-center justify-center grid grid-cols-2 border border-dashed border-purple-600 p-4 rounded-lg">
+   <div class="flex flex-wrap">
     <div class="shadow-md rounded-xl p-2">
         <img alt="dog" class="rounded-xl" src="../assets/dog1.jpg">
     <span class="font-bold text-lg">MO231 - Pomeranian White</span>
@@ -13,7 +18,7 @@
     </div>
 </div>
 
-<div class="w-full flex flex-wrap gap-x-10 ">
+<div class="w-full flex flex-wrap">
     <div class="shadow-md rounded-xl p-2">
         <img alt="dog" class="rounded-xl" src="../assets/food.jpg">
         <span class="font-bold text-lg">MO231 - Pomeranian White</span>
@@ -23,7 +28,7 @@
         </div>
 <div class="grid cols-1">
     <span class="font-bold text-lg">Price: £50.00</span>
-    <div class="sash p-2 items-center text-center justify-center">
+    <div class="sash p-2 items-center text-center justify-center gap-6">
         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M3.76823 10.1406L5.66667 9.44918C5.72526 9.42578 5.79557 9.41406 5.86584 9.41406H18.0299C18.3581 9.41406 18.6158 9.67184 18.6158 10V18.2422C18.6158 19.2148 17.8307 20 16.858 20H5.13928C4.16659 20 3.38147 19.2148 3.38147 18.2422V10.6914C3.38147 10.4453 3.53385 10.2227 3.76823 10.1406Z" fill="#FC1A40"/>
             <path d="M3.38147 10.6914V18.2422C3.38147 19.2148 4.16659 20 5.13928 20H10.9987V9.41406H5.86584C5.79553 9.41406 5.72522 9.42578 5.66667 9.44918L3.76823 10.1406C3.53385 10.2227 3.38147 10.4453 3.38147 10.6914Z" fill="#C60034"/>
@@ -40,6 +45,5 @@
     </div>
 </div>
     </div>
-</div>
 </div>
 </body>

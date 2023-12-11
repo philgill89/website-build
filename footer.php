@@ -1,4 +1,3 @@
-<?php include('head.php'); ?>
 <body class="min-h-screen flex flex-col">
     <footer class="mt-auto bg-beige w-full rounded-t-3xl flex pt-24 pb-12">
         <div class="w-full max-w-screen-xl mx-auto grid grid-cols-1 gap-y-12">
@@ -12,9 +11,11 @@
                                 'hidden_label' => 'true',
                                 'style' => 'flex-1 ',
                                 'container_style' => 'flex-1 mr-4',
-                                'placeholder' => 'Enter your Email',)); ?>
-                        <?php includeWithVariables('elements/button.php',
-                            array('text' => 'Subscribe Now', 'style' => 'button--primary rounded flex-none')); ?>
+                                'placeholder' => 'Enter your Email',));
+
+                            includeWithVariables('elements/button.php',
+                            array('text' => 'Subscribe Now', 'style' => 'button--primary rounded flex-none'));
+                        ?>
                     </div>
                 </div>
             </div>

@@ -1,110 +1,125 @@
-<?php include('head.php');?>
-
 <body class="m8 lg:m-16">
 <div class="w-full mb-16">
-    <div class="flex flex-wrap gap-x-10">
+    <div class="flex flex-wrap grid grid-cols-4 items-center justify-center">
+
+
 
         <?php
-            $products = array(
-                "dog-1" => array(
-                    "title" => "MO231 - Pomeranian White",
-                    "Gender" => "Male",
-                    "Age" => "02 months",
-                    "price" => "£50.00",
-                ),
-                "dog-2" => array(
-                    "title" => "MO231 - Poodle Tiny Yellow",
-                    "Gender" => "Female",
-                    "Age" => "02 months",
-                    "price" => "£50.00",
-                ),
-                "dog-3" => array(
-                    "title" => "M0102 - Poodle Tiny Sepia",
-                    "Gender" => "Male",
-                    "Age" => "02 months",
-                    "price" => "£50.00",
-                ),
-                 "dog-4" => array(
-                    "title" => "M0512 - Alaskan Malamute Grey",
-                    "Gender" => "Male",
-                    "Age" => "02 months",
-                    "price" => "£50.00",
-                ),
-                "dog-5" => array(
-                    "title" => "MO231 - Pembroke Corgi Cream",
-                    "Gender" => "Male",
-                    "Age" => "02 months",
-                    "price" => "£50.00",
-                ),
-                "dog-6" => array(
-                    "title" => "MO231 - Pembroke Corgi Tricolour",
-                    "Gender" => "Female",
-                    "Age" => "02 months",
-                    "price" => "£50.00",
-                ),
-                "dog-7" => array(
-                    "title" => "M0231 - Pomeranian White",
-                    "Gender" => "Female",
-                    "Age" => "02 months",
-                    "price" => "£50.00",
-                ),
-                "dog-8" => array(
-                    "title" => "M0312 - Poodle Tiny Dairy Cow",
-                    "Gender" => "Male",
-                    "Age" => "02 months",
-                    "price" => "£50.00",
-                ),
-            );
+        $products = [
+            "dog-1" => [
+                "image" => "/assets/dog1.jpg",
+                "title" => "MO231 - Pomeranian White",
+                "gender" => "Male",
+                "age" => "02 months",
+                "price" => "£50.00",
+            ],
+            "dog-2" =>[
+                "image" => "/assets/dog2.jpg",
+                "title" => "MO231 - Poodle Tiny Yellow",
+                "gender" => "Female",
+                "age" => "02 months",
+                "price" => "£50.00",
+            ],
+            "dog-3" =>[
+                "image" => "/assets/dog3.jpg",
+                "title" => "M0102 - Poodle Tiny Sepia",
+                "gender" => "Male",
+                "age" => "02 months",
+                "price" => "£50.00",
+            ],
+            "dog-4" =>[
+                "image" => "/assets/dog4.jpg",
+                "title" => "M0512 - Alaskan Malamute Grey",
+                "gender" => "Male",
+                "age" => "02 months",
+                "price" => "£50.00",
+            ],
+            "dog-5" =>[
+                "image" => "/assets/dog5.jpg",
+                "title" => "MO231 - Pembroke Corgi Cream",
+                "gender" => "Male",
+                "age" => "02 months",
+                "price" => "£50.00",
+            ],
+            "dog-6" =>[
+                "image" => "/assets/dog6.jpg",
+                "title" => "MO231 - Pembroke Corgi Tricolour",
+                "gender" => "Female",
+                "age" => "02 months",
+                "price" => "£50.00",
+            ],
+            "dog-7" =>[
+                "image" => "/assets/dog7.jpg",
+                "title" => "M0231 - Pomeranian White",
+                "gender" => "Female",
+                "age" => "02 months",
+                "price" => "£50.00",
+            ],
+            "dog-8" =>[
+                "image" => "/assets/dog8.jpg",
+                "title" => "M0312 - Poodle Tiny Dairy Cow",
+                "gender" => "Male",
+                "age" => "02 months",
+                "price" => "£50.00",
+            ],
+        ];
         ?>
 
         <?php
-        $products = array(
-            "product-1" => array(
-                "title" => "Reflex Plus Adult Cat Food",
-                "Product" => "Cat Food",
-                "Size" => "385g",
-                "price" => "£50.00",
-            ),
-            "product-2" => array(
+        $listings = [
+            "product-1" => [
+                "image" => "/assets/product1.jpg",
                 "title" => "Reflex Plus Adult Cat Food Salmon",
-                "Product" => "Cat Food",
-                "Size" => "1.5kg",
+                "product" => "Cat Food",
+                "size" => "385g",
                 "price" => "£50.00",
-            ),
-            "product-3" => array(
-                "title" => "Cat scratching ball toy kitten slsal rope ball",
-                "Product" => "Toy",
+            ],
+            "product-2" =>[
+                "image" => "/assets/product2.jpg",
+                "title" => "Reflex Plus Adult Cat Food",
+                "product" => "Cat Food",
+                "size" => "1.5kg",
                 "price" => "£50.00",
-            ),
-            "product-4" => array(
-                "title" => "Cute Pet Cat Warm Nest",
-                "Product" => "Toy",
-                "price" => "£50.00",
-            ),
-            "product-5" => array(
-                "title" => "NaturVet Dogs - Omega-Gold Plus Salmon Oil",
-                "Product" => "Dog Food",
-                "Size" => "385g",
-                "price" => "£50.00",
-            ),
-            "product-6" => array(
-                "title" => "Costume Fashion Pet Clother Cowboy Rider",
-                "Product" => "Costume",
-                "Size" => "Small",
-                "price" => "£50.00",
-            ),
-            "product-7" => array(
-                "title" => "M0231 - Pomeranian White",
-                "Product" => "Costume",
-                "Size" => "Medium",
-                "price" => "£50.00",
-            ),
-            "product-8" => array(
-                "title" => "Plush Pet Toy",
+            ],
+            "product-3" =>[
+                "image" => "/assets/product3.jpg",
+                "title" => "Cat Scratching Ball Toy Kitten Sisal Rope Ball",
                 "product" => "Toy",
                 "price" => "£50.00",
-            ),
-        );
+            ],
+            "product-4" =>[
+                "image" => "/assets/product4.jpg",
+                "title" => "Cute Pet Cat Warm Nest",
+                "product" => "Toy",
+                "price" => "£50.00",
+            ],
+            "product-5" =>[
+                "image" => "/assets/product5.jpg",
+                "title" => "NaturVet Dogs- Omega-Gold Plus Salmon Oil",
+                "product" => "Dog Food",
+                "size" => "385g",
+                "price" => "£50.00",
+            ],
+            "product-6" =>[
+                "image" => "/assets/product6.jpg",
+                "title" => "Costumes Fashion Pet Clother Cowboy Rider",
+                "product" => "Costume",
+                "size" => "02 months",
+                "price" => "£50.00",
+            ],
+            "product-7" =>[
+                "image" => "/assets/product7.jpg",
+                "title" => "Costumes Chicken Drumstick Headband",
+                "product" => "Costume",
+                "price" => "£50.00",
+            ],
+            "product-8" =>[
+                "image" => "/assets/product8.jpg",
+                "title" => "Plush Pet Toy",
+                "Product" => "Toy",
+                "price" => "£50.00",
+            ],
+        ];
         ?>
 
 
@@ -112,24 +127,15 @@
 
 
 
+        <div class="flex flex-wrap grid grid-cols-4">
+            <?php foreach ($products as $product) : ?>
+                <?php include 'listing-card.php'
+                ?>
+
+            <?php endforeach; ?>
+        </div>
 
 
-        <?php foreach($products as $product){
-            includeWithVariables('/listing-card.php',
-                array('title' => $product['title'], 'price' => $product['price']));
-            }
-        ?>
-
-        <?php includeWithVariables('/listing-card.php',
-            array('title' => 'MO231 - Pomeranian White')); ?>
-
-        <?php includeWithVariables('/listing-card.php',
-            array('title' => 'test')); ?>
-
-    </div>
-    <?php if(isset($title)){echo $title;} ?>
-    <?php if(isset($price)){echo $price;} ?>
-    <?php if(isset($price)){echo $price;} ?>
 
 </div>
 </body>

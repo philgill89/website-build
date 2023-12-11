@@ -1,21 +1,21 @@
-<?php include('head.php');?>
+<?php include('head.php'); ?>
 <body class="" xmlns="http://www.w3.org/1999/html">
 <nav class="w-full justify-center absolute inset-x-0 z-50">
     <div class="w-full flex flex-wrap items-center mx-auto justify-center">
         <div class="items-center w-full container">
             <?php includeWithVariables('sections/header.php',
-                array('',));?>
+                array('',)); ?>
         </div>
     </div>
 </nav>
 
-<div class="">
+
     <div class=" flex flex-wrap items-center object-cover isolate overflow-hidden">
         <div class="w-full">
-            <img alt="happy woman and dog" class="w-full bg-cover relative" src="../assets/hero.jpg" />
+            <img alt="happy woman and dog" class="w-full bg-cover relative" src="../assets/hero.jpg"/>
         </div>
 
-        <div class="flex flex-col w-full absolute text-left mr-8 ">
+        <div class="flex flex-col w-full absolute">
             <span class=" text-5xl text-primary font-bold">
                One More Friend
             </span>
@@ -33,13 +33,14 @@
             </div>
         </div>
     </div>
-</div>
+
 
 
 <div class="w-full flex grid grid-cols-1 ">
     <span class="text-lg text-primary">Whats new?</span>
     <span class=" text-lg font-bold text-primary">Take a look at some of our pets</span>
     <div class="flex grid grid-cols-4">
+
     </div>
 </div>
 <div class="grid grid-cols-1">
@@ -74,8 +75,8 @@
 </div>
 <div class="flex flex-wrap">
     <div class="items-center grid-cols-2">
-    <span class="text-primary">Proud to be part of</span>
-    <span class="text-primary font-bold text-lg">Pet Sellers</span>
+        <span class="text-primary">Proud to be part of</span>
+        <span class="text-primary font-bold text-lg">Pet Sellers</span>
         <?php includeWithVariables('elements/button.php',
             array('text' => 'view more', 'style' => 'button--ghost')); ?>
     </div>
@@ -98,8 +99,8 @@
         <Span class="text-primary w-6/12 ">Adopt a pet and give it a home, it will love you back unconditionally</Span>
         <div class="flex flex-wrap justify-start gap-6">
             <?php includeWithVariables('elements/button.php',
-                array('text' => 'View Intro', 'style' => 'button--ghost', 'icon' => 'caret-circle-right')); ?>
-            <?php includeWithVariables('elements/button.php',
+                array('text' => 'View Intro', 'style' => 'button--ghost', 'icon' => 'caret-circle-right'));
+            includeWithVariables('elements/button.php',
                 array('text' => 'Explore Now', 'style' => 'button--primary')); ?>
         </div>
     </div>
@@ -108,21 +109,7 @@
 
 <footer class="bg-beige w-full rounded-t-3xl flex pt-24 pb-12">
     <div class="w-full max-w-screen-xl mx-auto grid grid-cols-1 gap-y-12">
-        <div class="bg-primary rounded-xl p-6">
-            <div class="flex items-center">
-                <h5 class="text-white flex font-bold text-xl w-full max-w-xs capitalize mr-4">Register now so you don't miss our programs</h5>
-                <div class=" flex w-full bg-white p-4 rounded-xl">
-                    <?php includeWithVariables('elements/input.php',
-                        array(
-                            'type' => 'email',
-                            'hidden_label' => 'true',
-                            'style' => 'flex-1 ',
-                            'container_style' => 'flex-1 mr-4',
-                            'placeholder' => 'Enter your Email',)); ?>
-                    <?php includeWithVariables('elements/button.php',
-                        array('text' => 'Subscribe Now', 'style' => 'button--primary rounded flex-none')); ?>
-                </div>
-            </div>
-        </div>
+        <?php includeWithVariables('footer.php',
+            array('',)); ?>
 </footer>
 </body>

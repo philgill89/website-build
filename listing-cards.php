@@ -1,6 +1,8 @@
-<body class="m8 lg:m-16">
+<?php include('head.php'); ?>
+
+<body class="m-8 lg:m-16">
 <div class="w-full mb-16">
-    <div class="flex flex-wrap grid grid-cols-4 items-center justify-center">
+    <div class="flex w-full items-center justify-center">
 
 
 
@@ -127,7 +129,7 @@
 
 
 
-        <div class="flex flex-wrap grid grid-cols-4">
+        <div class="w-full gap-4 grid grid-cols-4">
             <?php foreach ($products as $product) : ?>
                 <?php include 'listing-card.php'
                 ?>
@@ -139,3 +141,4 @@
 
 </div>
 </body>
+</html

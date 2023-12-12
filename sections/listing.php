@@ -1,4 +1,4 @@
-body class="lg:m-16">
+
 <div class="mb-4 justify-center items-center">
 
 </div>
@@ -14,5 +14,4 @@ body class="lg:m-16">
     </div>
     <span class="font-bold text-lg"><?php echo $listing['price'];?></span>
 </div>
-</div>
-</body>
+

@@ -8,7 +8,7 @@ body{
 
 @layer components{
     .button{
-        @apply inline-flex items-center border-2 border-transparent bg-black text-white px-6.5 py-2.5 rounded-full hover:bg-secondary;
+        @apply inline-flex items-center border-2 border-transparent bg-black text-white px-6 py-2 rounded-full hover:bg-secondary;
     }
     .button--primary{
         @apply bg-primary hover:bg-transparent hover:text-primary px-5 py-2 hover:border-primary;

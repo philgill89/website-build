@@ -1,5 +1,3 @@
-
-
 <div class="mb-4 justify-center items-center">
     <div class="flex flex-wrap items-center justify-center border border-dashed border-purple-600 p-4 rounded-lg">
         <div class="flex flex-wrap">

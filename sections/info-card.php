@@ -1,7 +1,5 @@
 <div class="mb-4 justify-center items-center">
-
 </div>
-
 <div class="flex flex-wrap items-center justify-center grid grid-cols-4 border border-dashed border-purple-600 p-4 rounded-lg">
     <div class="flex flex-wrap>
         <div class="shadow-md rounded-xl p-2">
